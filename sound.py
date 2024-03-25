@@ -8,3 +8,6 @@ for freq in range(50, 100):
     winsound.Beep(freq, 1000)
 
 print("--------------")
+
+for freq in range (50, 100, 50):
+    print("freq:", freq)
